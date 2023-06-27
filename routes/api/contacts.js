@@ -1,14 +1,11 @@
 const express = require("express");
-
 const {
   contactsList,
   getContact,
   createContact,
   deleteContact,
   refreshContact,
-
 } = require("../../controllers/controllers");
-
 const {
   toAddContactMiddlware,
   toUpdateContactMiddlware,
